@@ -1,5 +1,6 @@
 streamlit
 pillow
-requests
 numpy
+requests
 inference-sdk
+
