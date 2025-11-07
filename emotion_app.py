@@ -151,7 +151,6 @@ def run_workflow_on_image(img_bytes: io.BytesIO) -> dict | list:
         workspace_name=WORKSPACE_NAME,
         workflow_id=WORKFLOW_ID,
         images={"image": b64},  # matches your working workflow output
-        use_cache=True,
     )
 
 # =========================
@@ -276,3 +275,4 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
