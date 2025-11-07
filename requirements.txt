@@ -3,4 +3,4 @@ pillow
 numpy
 requests
 inference-sdk
-
+opencv-python-headless
